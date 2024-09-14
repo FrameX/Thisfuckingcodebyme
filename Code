@@ -1,0 +1,10 @@
+local a,b,c,d = Instance.new,game.Players.LocalPlayer.PlayerGui,UDim2.new,"rbxassetid://"
+local e = a("ScreenGui", b)
+local f = a("ImageLabel", e)
+f.Size, f.Image = c(1, 0, 1, 0), d.."7713734565"
+local g = a("Sound", b)
+g.SoundId = d.."6754147732"
+g:Play()
+wait(3)
+e:Destroy()
+g:Destroy()
